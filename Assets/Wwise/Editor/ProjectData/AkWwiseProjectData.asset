@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275e3f331f26d47b99a13867e660868f, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 84ac4ce78859c4469df90fb58dc3ff67
+    GuidInternal: 
+    m_lastTime: -8586066367044775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 49d39753dddb24448135762733fbd3ff
+    GuidInternal: 
+    m_lastTime: -8586056843204775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+    - name: Reverb_Abirds
+      guid: 75263274a0a9ab47ba46c79265a2bc1f
+      id: 2310589475
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb_Abirds
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/Reverb_Abirds
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: c14bdfeed3909144a4e7ffc9fb9cfae1
+    GuidInternal: 
+    m_lastTime: -8586058618604775808
+    List:
+    - name: General
+      guid: 8e8cca407ca4f2438a925027b36c4e58
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 7
+      Path: Default Work Unit/General
+    - name: Music
+      guid: c460b4e3a3b90f48b5c333cbedfb7922
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit/Music
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 5063aa135b1e0343b1aaad1e655eb1f4
+    GuidInternal: 
+    m_lastTime: -8586056850274775808
+    List:
+    - name: Hit_Obstacle
+      guid: e28864eebfa0a547a4929203f38b9f45
+      id: 1183362788
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hit_Obstacle
+        ObjectType: 3
+      Path: Default Work Unit/Hit_Obstacle
+      maxAttenuation: 0
+      maxDuration: 2.623855
+      minDuration: 2.476795
+    - name: Music
+      guid: 19236dd6edf71843b47b4e2d3de41719
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit/Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerIsDead
+      guid: e7e960967ac1964f9322f58e47e60363
+      id: 4073605608
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerIsDead
+        ObjectType: 3
+      Path: Default Work Unit/PlayerIsDead
+      maxAttenuation: 0
+      maxDuration: 8.02
+      minDuration: 8.02
+    - name: StopMusicAndWater
+      guid: 42f319904ebab74bbde64a8072e4f46b
+      id: 2875365230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopMusicAndWater
+        ObjectType: 3
+      Path: Default Work Unit/StopMusicAndWater
+      maxAttenuation: 0
+      maxDuration: 8
+      minDuration: 8
+    - name: Water
+      guid: 1695c64276ebb547899c27ce3a20c38b
+      id: 2654748154
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Water
+        ObjectType: 3
+      Path: Default Work Unit/Water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 0c7140943e3ee546954ef58c88dd01c9
+    GuidInternal: 
+    m_lastTime: -8586056955114775808
+    List:
+    - name: AmountOfWater
+      guid: 03f0ab8ccd4df0418ae3ffbeec3d24cc
+      id: 3223332851
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AmountOfWater
+        ObjectType: 13
+      Path: Default Work Unit/AmountOfWater
+    - name: TimeOfDay
+      guid: f5dc391c5e574e45a6ee0132cf8539eb
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TimeOfDay
+        ObjectType: 13
+      Path: Default Work Unit/TimeOfDay
+    - name: WaterSpeed
+      guid: 19ccc45fb0d33b4c804a229409e6a566
+      id: 1137641355
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WaterSpeed
+        ObjectType: 13
+      Path: Default Work Unit/WaterSpeed
+  - PhysicalPath: Game Parameters/Factory SoundSeed Air Game Syncs.wwu
+    ParentPath: Factory SoundSeed Air Game Syncs
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    GuidInternal: 
+    m_lastTime: -8586066836904775808
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs/SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 9fc0bd155d8aea4099d7168386e8118f
+    GuidInternal: 
+    m_lastTime: -8586056561764775808
+    List:
+    - name: PlayerStatus
+      guid: 4903aa337f4c57469eac148b652c4fe2
+      id: 3800848640
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerStatus
+        ObjectType: 9
+      Path: Default Work Unit/PlayerStatus
+      values:
+      - name: Alive
+        guid: f3a0519f082d344ebeeae17aa36ab810
+        id: 655265632
+        PathAndIcons:
+        - ElementName: Alive
+          ObjectType: 8
+      - name: Dead
+        guid: a0be9dc60196b143b9a13cc1c3c72d55
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: Dead
+          ObjectType: 8
+      - name: None
+        guid: b2d19c2e264df643a26c2512ca84b705
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 79aea8d535274e41966af22185345b84
+    GuidInternal: 
+    m_lastTime: -8586056879604775808
+    List:
+    - name: Time_of_day
+      guid: aaae29a6ad0ccf419a82ed2372383597
+      id: 207908541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Time_of_day
+        ObjectType: 11
+      Path: Default Work Unit/Time_of_day
+      values:
+      - name: Day
+        guid: 93ed5aeeb3b7b643b4bc25fa465f3b04
+        id: 311764537
+        PathAndIcons:
+        - ElementName: Day
+          ObjectType: 10
+      - name: Night
+        guid: 3f28c3f4b17272419254a033c452cbde
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: Night
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 6fa10ac0f7cbf346a58ae597fb295f2f
+    GuidInternal: 
+    m_lastTime: -8586066367044775808
+    List: []
+  ExpandedItems:
+  - /Plumbing_WaterGame
+  - /Plumbing_WaterGame/States
+  - /Plumbing_WaterGame/States/Default Work Unit
+  - /Plumbing_WaterGame/States/Default Work Unit/PlayerStatus
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
